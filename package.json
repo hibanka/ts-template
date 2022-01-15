@@ -8,14 +8,16 @@
     "lint": "eslint . --fix"
   },
   "devDependencies": {
-    "@hibanka/eslint-config": "^1.0.0",
+    "@hibanka/eslint-config": "^1.0.1",
     "@hibanka/prettier-config": "^1.0.0",
     "@hibanka/ts-config": "^1.0.0",
     "@types/chai": "^4.3.0",
     "@types/mocha": "^9.0.0",
     "@types/node": "^16.11.12",
     "chai": "^4.3.4",
-    "mocha": "^9.1.3",
+    "eslint": "^8.6.0",
+    "mocha": "^9.1.4",
+    "prettier": "^2.5.1",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.4"
   }
