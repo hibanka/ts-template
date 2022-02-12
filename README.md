@@ -1,1 +1,5 @@
 # Template
+
+## Setup
+
+`npm ci`
