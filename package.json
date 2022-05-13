@@ -3,22 +3,22 @@
   "private": true,
   "scripts": {
     "dev": "ts-node src/index.ts",
-    "build": "tsc -p .",
+    "build": "tsc -p tsconfig.build.json",
     "test": "mocha -r ts-node/register 'test/**/*.test.ts'",
     "lint": "eslint . --fix"
   },
   "devDependencies": {
-    "@hibanka/eslint-config": "^3.0.0",
-    "@hibanka/prettier-config": "^3.0.0",
-    "@hibanka/ts-config": "^3.0.0",
-    "@types/chai": "^4.3.0",
-    "@types/mocha": "^9.1.0",
-    "@types/node": "^16.11.24",
+    "@hibanka/eslint-config": "^3.2.0",
+    "@hibanka/prettier-config": "^3.2.0",
+    "@hibanka/ts-config": "^3.2.0",
+    "@types/chai": "^4.3.1",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^16.11.35",
     "chai": "^4.3.6",
-    "eslint": "^8.11.0",
+    "eslint": "^8.15.0",
     "mocha": "^9.2.2",
-    "prettier": "^2.5.1",
+    "prettier": "^2.6.2",
     "ts-node": "^10.7.0",
-    "typescript": "^4.6.2"
+    "typescript": "^4.6.4"
   }
 }
