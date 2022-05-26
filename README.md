@@ -1,5 +1,1 @@
-# Template
-
-## Setup
-
-`npm ci`
+# ts-template
