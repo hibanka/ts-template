@@ -34,7 +34,7 @@ jobs:
         run: npm run test
 
       - name: Build
-        run: npm run build
+        run: npm run build -- --noEmit
 
       - name: Lint
         run: npm run lint -- --max-warnings=0

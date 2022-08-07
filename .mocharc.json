@@ -2,5 +2,6 @@
   "$schema": "https://json.schemastore.org/mocharc",
   "slow": 5000,
   "timeout": 10000,
-  "exit": true
+  "exit": true,
+  "require": ["ts-node/register"]
 }
