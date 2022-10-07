@@ -1,1 +1,1 @@
-console.log('Use this template to build your crazy applications.');
+console.log('Template for building awesome TypeScript projects.');

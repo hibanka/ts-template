@@ -1,6 +1,6 @@
 {
   "extends": "@hibanka/ts-config",
   "compilerOptions": {
-    "outDir": "./.build"
+    "outDir": "./dist"
   }
 }
